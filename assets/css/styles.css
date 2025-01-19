@@ -510,3 +510,138 @@ a {
     background: var(--primary-color);
     margin-right: 10px;
 }
+
+/* ============= COUNTDOWN ============== */
+.count-down {
+    margin: 389px auto 264px;
+    width: 862px;
+    display: flex;
+    /* gap: 218px; */
+    justify-content: space-between;
+}
+
+.count-down .count .quantity {
+    color: #0d1111;
+    text-align: center;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.count-down .count .desc {
+    margin-top: 11px;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/* ============= TESTIMONIAL ============== */
+.testimonial .testi-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial .testi-content .desc-testi {
+    width: 35.812%;
+}
+
+.testi-content .desc-testi blockquote {
+    margin-top: 27px;
+    display: block;
+    color: #5d6564;
+    font-size: 3.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    word-spacing: -0.1px;
+}
+
+.testi-content .desc-testi .author {
+    margin-top: 33px;
+    display: block;
+    color: #767e7e;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.desc-testi .author strong {
+    color: #070707;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.testi-content .desc-testi .cta-group {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.desc-testi .cta-group .cta-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background: #2ac9bf;
+    border: 1px solid currentColor;
+}
+
+.testimonial .testi-content .avatar-testi {
+    width: 58.03%;
+    height: 481px;
+    position: relative;
+}
+
+.testi-content .avatar-testi img {
+    display: block;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.testi-content .avatar-testi img.avatar-92 {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: 0;
+    left: 144px;
+}
+
+.testi-content .avatar-testi img.avatar-110 {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 19px;
+    right: 0;
+}
+
+.testi-content .avatar-testi img.avatar-235 {
+    width: 235px;
+    height: 235px;
+    position: absolute;
+    top: 107px;
+    right: 171px;
+}
+
+.testi-content .avatar-testi img.avatar-78 {
+    position: absolute;
+    top: 158px;
+    left: 0;
+}
+
+.testi-content .avatar-testi img.avatar-782 {
+    position: absolute;
+    left: 212px;
+    bottom: 0;
+}
+
+.testi-content .avatar-testi img.avatar-783 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+}
